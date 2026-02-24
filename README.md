@@ -1,6 +1,6 @@
 # Synchronization properties in C. elegans: Relating behavioral circuits to structural and functional neuronal connectivity
 
-## Folder Structure
+## C_elegans_data
 
 The files are arranged alphabetically
 - `C_Elegans_Network_Data.mat` - Weighted neuronal connectivity data
