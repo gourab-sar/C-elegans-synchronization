@@ -21,7 +21,7 @@ The codes are described serially by the order they should be used
 - `community_detection_matlab.m` - Detects the communities from each of the correlation matrices using the WSBM method and stores the co-occurrence matrix
 - `fit_wsbm.m` - Finds the functional communities from the co-occurrence matrix
 - `fit_wsbm_mode.m` - Collects the optimal functional communities from the modes of the community assignment
-- `patterns_generate.m` - Generates the data for the emerging synchronization patterns
+- `patterns_generate.m` - Generates the data for the emerging synchronization patterns using the generalized Louvain algorithm
 - `patterns_identify.m` - Identifies the unique synchronization patterns as *sync*, *async*, or *chimera*
 
 ## Python_codes
