@@ -38,5 +38,5 @@ We refer the readers to [The Weighted Stochastic Block Model](https://aaronclaus
   
 We refer the readers to [A generalized Louvain method for community detection implemented in MATLAB](https://github.com/GenLouvain/GenLouvain) for the documentation and proper implementation of the generalized Louvain method
 
-**Important:** We strongly recommend to put all the data from the *C_elegans_data* folder, and all the codes and supporting functions from the *Main_matlab_codes*. *Python_codes*, and *Supporting_matlab_functions* folders into a single folder before running any simulations.
+**Important:** We strongly recommend to put all the data from the *C_elegans_data* folder, and all the codes and supporting functions from the *Main_matlab_codes*, *Python_codes*, and *Supporting_matlab_functions* folders into a single folder before running any simulations.
 
