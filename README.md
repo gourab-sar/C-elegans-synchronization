@@ -14,7 +14,15 @@ The files are arranged alphabetically
 We refer the readers to the papers [Structural Properties of the Caenorhabditis elegans Neuronal Network](https://doi.org/10.1371/journal.pcbi.1001066) for description of the C. elegans structural connectome, and to [Low-dimensional functionality of complex network dynamics:Neurosensory integration in the Caenorhabditis elegans connectome](https://doi.org/10.1103/PhysRevE.89.052805) for the description of the single compartment membrane model and associated parameters.
 
 ## Main_matlab_codes
-Will update here...
+
+The codes are described serially by the order they should be used
+- `actual_oscillation.m` - Finds the neurons that are susceptible to external current stimulation (make the noise amplitude zero while running this by changing its value in the *Run_Model.m* function)
+- `find_correlation_matrices.m` - Stores the Pearson correlation matrices after stimulation to the susceptible neurons
+- `community_detection_matlab.m` - Detects the communities from each of the correlation matrices using the WSBM method and stores the co-occurrence matrix
+- `fit_wsbm.m` - Finds the functional communities from the co-occurrence matrix
+- `fit_wsbm_mode.m` - Collects the optimal functional communities from the modes of the community assignment
+- `patterns_generate.m` - Generates the data for the emerging synchronization patterns
+- `patterns_identify.m` - Identifies the unique synchronization patterns as *sync*, *async*, or *chimera*
 
 ## Python_codes
 Will update here...
