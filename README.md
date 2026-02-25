@@ -13,6 +13,12 @@ The files are arranged alphabetically
 
 We refer the readers to the papers [Structural Properties of the Caenorhabditis elegans Neuronal Network](https://doi.org/10.1371/journal.pcbi.1001066) for description of the C. elegans structural connectome, and to [Low-dimensional functionality of complex network dynamics:Neurosensory integration in the Caenorhabditis elegans connectome](https://doi.org/10.1103/PhysRevE.89.052805) for the description of the single compartment membrane model and associated parameters.
 
+## Main_matlab_codes
+
+
+## Python_codes
+
+
 ## Supporting_matlab_functions
 We recommend not making changes to these auxiliary functions
 
@@ -31,3 +37,6 @@ We refer the readers to [The Weighted Stochastic Block Model](https://aaronclaus
 - `genlouvain.m`, `iterated_genlouvain.m`
   
 We refer the readers to [A generalized Louvain method for community detection implemented in MATLAB](https://github.com/GenLouvain/GenLouvain) for the documentation and proper implementation of the generalized Louvain method
+
+**Important:** We strongly recommend to put all the data from the *C_elegans_data* folder, and all the codes and supporting functions from the *Main_matlab_codes*. *Python_codes*, and *Supporting_matlab_functions* folders into a single folder before running any simulations.
+
