@@ -25,7 +25,9 @@ The codes are described serially by the order they should be used
 - `patterns_identify.m` - Identifies the unique synchronization patterns as *sync*, *async*, or *chimera*
 
 ## Python_codes
-Will update here...
+- `draw_c_elegans_network.ipynb` - Used to draw the *C. elegans* neuronal network
+- `draw_subnetwork_from_matlab_data.ipynb` - Used to draw the mesoscale functional communities from the community partition achieved from *fit_wsbm.m*
+- `draw_patterns.ipynb` - used to draw the synchronization patterns generated from *patterns_identify.m*
 
 ## Supporting_matlab_functions
 We recommend not making changes to these auxiliary functions
