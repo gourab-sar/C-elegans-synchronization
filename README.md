@@ -14,3 +14,10 @@ The files are arranged alphabetically
 We refer the readers to the papers [Structural Properties of the Caenorhabditis elegans Neuronal Network](https://doi.org/10.1371/journal.pcbi.1001066) for description of the C. elegans structural connectome, and to [Low-dimensional functionality of complex network dynamics:Neurosensory integration in the Caenorhabditis elegans connectome](https://doi.org/10.1103/PhysRevE.89.052805) for the description of the single compartment membrane model and associated parameters.
 
 ## Supporting_matlab_functions
+We recommend not making changes to these auxiliary functions
+
+### Supporting functions for the main model
+- `Conductance_ODE.m` - Defines the conductance based single compartment membrane model equations
+- `Find_Hopf_Bifurcation_Stepper.m` - Sets up the Hopf bifurcation method
+- `Run_Model.m` - Sets up the Euler-Maruyama integration method. Change step size, noise amplitude, initial conditions, specifications about data to be stored here.
+- `Threshold_Voltage.m` - Calculates the threshold voltages of the neurons. 
