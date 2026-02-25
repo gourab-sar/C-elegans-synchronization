@@ -14,10 +14,10 @@ The files are arranged alphabetically
 We refer the readers to the papers [Structural Properties of the Caenorhabditis elegans Neuronal Network](https://doi.org/10.1371/journal.pcbi.1001066) for description of the C. elegans structural connectome, and to [Low-dimensional functionality of complex network dynamics:Neurosensory integration in the Caenorhabditis elegans connectome](https://doi.org/10.1103/PhysRevE.89.052805) for the description of the single compartment membrane model and associated parameters.
 
 ## Main_matlab_codes
-
+Will update here...
 
 ## Python_codes
-
+Will update here...
 
 ## Supporting_matlab_functions
 We recommend not making changes to these auxiliary functions
