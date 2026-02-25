@@ -24,8 +24,10 @@ We recommend not making changes to these auxiliary functions
 
 ### Supporting functions for the Weighted Stochastic Block Model (WSBM) method
 - `Adj2Edg.m`, `biwsbm.m`, `calc_logEvidence.m`, `Edg2Adj.m`, `setup_distr.m`, `wsbm.m`
+  
 We refer the readers to [The Weighted Stochastic Block Model](https://aaronclauset.github.io/wsbm/) by Aaron Clauset for the documentation and proper implementation of WSBM
 
 ### Supporting functions for the generalized Louvain method
 - `genlouvain.m`, `iterated_genlouvain.m`
+  
 We refer the readers to [A generalized Louvain method for community detection implemented in MATLAB](https://github.com/GenLouvain/GenLouvain) for the documentation and proper implementation of the generalized Louvain method
